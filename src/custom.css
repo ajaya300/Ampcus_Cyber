@@ -1,0 +1,42 @@
+.whyChooseContainer {
+    display: flex;
+    align-items: flex-start; /* Align items to the start of the container */
+    margin: 20px 0;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+.tab {
+    background-color: #0097a7; /* Customize color to match your design */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.tab:hover {
+    background-color: #006f7a; /* Darker shade on hover */
+}
+
+.activeTab {
+    background-color: #b30000; /* Active tab color */
+}
+
+.content {
+    flex: 3;
+    margin-left: 20px; /* Space between tabs and content */
+    padding: 20px;
+    background-color: #b30000; /* Content background */
+    color: white;
+    border-radius: 10px;
+}
+
+.content h3 {
+    margin-top: 0;
+}
